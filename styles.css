@@ -1,6 +1,7 @@
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 25px 0;
 }
 
@@ -9,4 +10,19 @@ body {
     flex-wrap: wrap;
     height: 265px;
     width: 265px;
+    position: absolute;
+    top: 64px;
+}
+
+#etch-a-sketch {
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.shell {
+    width: 360px;
+    height: 405px;
+    position: absolute;
 }
